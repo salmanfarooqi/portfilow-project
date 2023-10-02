@@ -4,7 +4,7 @@ import {AiFillGithub} from 'react-icons/ai';
 
 function Project() {
   return (
-    <div className="projects-wrapper" >
+    <div className="projects-wrapper" id='projects' >
         <div className="heading-text" >
         <h1>Our <span>projects</span></h1>
         </div>

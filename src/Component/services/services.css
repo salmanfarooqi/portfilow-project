@@ -91,6 +91,11 @@
 
 /* Mobile devices (width up to 768px) */
 @media only screen and (max-width: 768px) {
+
+    .services-wrapper{
+
+        padding-top:1rem ;
+    }
     .services-wrapper .cards-container {
         flex-direction: column;
         align-items: center;
@@ -100,7 +105,7 @@
 
     .services-wrapper .cards-container .card {
         width: 100%; 
-        height: 20rem;
+        height: 19rem;
         margin-bottom: 2rem;
     }
     .services-wrapper .cards-container .card:hover{
@@ -108,7 +113,7 @@
 
         background-color: #112e42;
         width: 105%;
-        height:22rem;
+        height:21rem;
         box-shadow: 1px 1px 20px #00abf0;
     }
 

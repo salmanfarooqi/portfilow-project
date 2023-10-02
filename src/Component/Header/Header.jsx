@@ -18,12 +18,12 @@ function Header() {
             </div>
             <div className='navbar'>
                 <ul className={showMenu ? 'show' : ''}>
-                    <li><a href="#Home" className='active'>Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#Home" className='active'>Home</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#about">About</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#skills">Skills</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#services">Services</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#projects">Projects</a></li>
+                    <li onClick={(e)=>setShowMenu('')}><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>

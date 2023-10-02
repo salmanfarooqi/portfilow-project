@@ -144,11 +144,15 @@
 
 /* Mobile devices (width up to 768px) */
 @media only screen and (max-width: 768px) {
+    
+    .projects-wrapper{
 
+        padding-top:1rem ;
+    }
     
     .projects-wrapper .cards-container {
         flex-direction: column;
-        margin: 0rem 2rem;
+        margin: 2rem 2rem 0rem 2rem ;
     }
 
     .projects-wrapper .cards-container .card {

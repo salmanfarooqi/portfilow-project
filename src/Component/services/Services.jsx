@@ -6,24 +6,24 @@ function Services() {
         {
             image: './images/frontend.png',
             title: 'front end development',
-            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis architecto hic iusto provident nihil.'
+            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis .'
         },
         {
             image: './images/backend.png',
             title: 'backend development',
-            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis architecto hic iusto provident nihil.'
+            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis .'
         },
         {
             image: './images/ui.png',
             title: 'ui/ux design',
-            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis architecto hic iusto provident nihil.'
+            description: 'Lorem ipsum dolor, sit amet consectetur. Et officiis, veniam natus porro minima tempora libero accusantium sequi ullam veritatis .'
         }
     ];
 
     return (
-        <div className="services-wrapper" id="services">
+        <div className="services-wrapper" >
             <div className="heading-text">
-                <h1>Our <span>services</span></h1>
+                <h1  id="services">Our <span>services</span></h1>
             </div>
 
             <div className="cards-container">

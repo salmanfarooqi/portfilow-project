@@ -1,99 +1,11 @@
-// import React from 'react'
-// import './skill.css'
-// function Skill() {
-//   return (
-//     <div className="skills-wrapper">
-//         <h2 className='heading'>my <span>skill</span></h2>
-
-
-//        <div className="main-skill">
-//             <div className="technical-skills-section">
-//                 <h1>technical skills</h1>
-//                 <div className="skills-bar">
-//                     <div className="info">
-//                         <p>Html</p>
-//                         <p>70%</p>
-//                     </div>
-//                     <div className="bar">
-//                         <span className='html'></span>
-//                     </div>
-//                 </div>
-
-
-
-//                 <div className="skills-bar">
-//                     <div className="info">
-//                         <p>Html</p>
-//                         <p>70%</p>
-//                     </div>
-//                     <div className="bar">
-//                         <span className='css'></span>
-//                     </div>
-//                 </div>
-
-
-
-
-//                 <div className="skills-bar">
-//                     <div className="info">
-//                         <p>Html</p>
-//                         <p>70%</p>
-//                     </div>
-//                     <div className="bar">
-//                         <span className='javascript'></span>
-//                     </div>
-//                 </div>
-
-
-
-//                 <div className="skills-bar">
-//                     <div className="info">
-//                         <p>Html</p>
-//                         <p>70%</p>
-//                     </div>
-//                     <div className="bar">
-//                         <span className='react'></span>
-//                     </div>
-//                 </div>
-
-//                 <div className="skills-bar">
-//                     <div className="info">
-//                         <p>Html</p>
-//                         <p>70%</p>
-//                     </div>
-//                     <div className="bar">
-//                         <span className='node'></span>
-//                     </div>
-//                 </div>
-//             </div>
-//             <div className="professional-skills-section">
-//                 <div className="professional-skills">
-//                     <h1>professional skills</h1>
-//                 </div>
-
-//             </div>
-//         {/* </main-skills> */}
-//         </div>
-        
-//     </div>
-//   )
-// }
-
-// export default Skill
 
 
 import React from 'react';
 import './skill.css';
 import { useState,useEffect } from 'react';
 function Skill() {
-    const [animate, setAnimate] = useState(false);
-    useEffect(() => {
-        const timer = setTimeout(() => {
-            setAnimate(true);
-        }, 100);  // A small delay to ensure the animation triggers.
-
-        return () => clearTimeout(timer); // Clean up the timer to prevent issues.
-    }, []);
+  
+   
   const technicalSkills = [
     { name: 'Html', percentage: '85%', class: 'html' },
     { name: 'CSS', percentage: '80%', class: 'css' },

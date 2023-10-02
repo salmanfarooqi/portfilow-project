@@ -123,6 +123,12 @@
 
 /* Mobile devices (width up to 768px) */
 @media only screen and (max-width: 768px) {
+
+
+    .skills-wrapper{
+
+        padding-top:1rem ;
+    }
     .skills-wrapper .main-skill {
         flex-direction: column;
         align-items: center;
