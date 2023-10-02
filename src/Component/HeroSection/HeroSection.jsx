@@ -25,7 +25,7 @@ function HeroSection() {
 
             <Typewriter
             words={["Mern stack developer"]}
-            loop={5}
+            loop={50}
             cursor
             cursorStyle=''
             typeSpeed={70}
@@ -35,8 +35,11 @@ function HeroSection() {
           />
             </h3>
         </div>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit
-            <br />rror exercitationem magni suscipit nesciun</p>
+       <p>
+       I am a MERN Stack developer. I use MongoDB, Express.js, React.js, 
+       and Node.js for web solutions. 
+       .
+          </p>
 
             <div className="buttons">
                 <button className='btn btn1' onClick={handleDownload}>download cv</button>

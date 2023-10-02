@@ -16,7 +16,7 @@
     
     display: flex;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     padding: 0 9%;
     margin-top: 5rem;
     background: url("images/home.jpg") no-repeat;
@@ -24,7 +24,7 @@
     background-position: center;
     
     color: #ededed;
-    max-width: 100vw;
+    width: 100%;
       background-color: #081b29; 
   }
 
@@ -67,6 +67,7 @@
    margin-top: 2rem;
     font-size: 1.5rem;
     margin: 2rem 0 4rem;
+    max-width:25rem;
   }
 
   .hero-section-content .buttons{
@@ -126,22 +127,7 @@
 
     background-color: #00abf0;
   }
-   /* .buttons .btn ::before{
-    content: '';
-
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: red;
-    width: 0;
-    transition: .5s;
-    height: 100%;
-    z-index: -1;
-  }
-
-   .buttons .btn :hover::before{
-    width: 100%;
-  } */
+   
 
 .buttons .btn:hover{
 
@@ -205,23 +191,7 @@ position: relative;
 
 
 
-/* .hero-section-wrapper .herosection-icons ul li::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color:#00abf0;
-  width: 0;
-  transition: .9s;
-  height: 100%; 
-  z-index: 1;
 
-}
-
-.hero-section-wrapper .herosection-icons ul li:hover::before {
-  width: 100%;
-  
-} */
 
 
 .imageHover{
@@ -242,10 +212,6 @@ transition: 2s;
 }
 
 
-/* General styles remain the same... */
-
-/* RESPONSIVENESS STARTS HERE */
-/* This applies to screens with a width of 1024px or smaller (Typically tablets and smaller) */
 @media only screen and (max-width: 1024px) {
  
 
