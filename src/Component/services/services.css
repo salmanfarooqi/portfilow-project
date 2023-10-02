@@ -48,6 +48,7 @@
     color:white;
     margin:0.9;
     transition: .9s;
+    overflow: hidden;
 }
 .services-wrapper .cards-container .card:hover{
 
@@ -56,6 +57,7 @@
     width: 34%;
     height: 30rem;
     box-shadow: 1px 1px 20px #00abf0;
+    overflow: hidden;
 }
 
 .services-wrapper .cards-container .card img{
