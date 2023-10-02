@@ -60,6 +60,7 @@
     .header-wrapper{
 
         width: 100%;
+        padding: 2rem 0rem 8% 8%;
     }
     .navbar ul {
         position: absolute;
