@@ -14,7 +14,7 @@ function Project() {
             <img src='./images/frontend.png'></img>
            <div className="icon-section">
                 <h1>Ecommerce website </h1>
-                <a href='https://www.linkedin.com/in/salman-farooqi-82554125a/'
+                <a href='https://github.com/salmanfarooqi/Ecommerce-project'
                  target='_blank' ><AiFillGithub  className='icon'/> </a>
 
                 </div>
@@ -24,7 +24,7 @@ function Project() {
             <img src='./images/backend.png'></img>
            <div className="icon-section">
                 <h1>Hospital Mangement  </h1>
-                <a href='https://www.linkedin.com/in/salman-farooqi-82554125a/'
+                <a href='https://github.com/salmanfarooqi/Hospital-Mangement-system/'
                  target='_blank' ><AiFillGithub  className='icon'/> </a>
 
                 </div>
@@ -34,7 +34,7 @@ function Project() {
                 <img src='./images/ui.png'></img>
                 <div className="icon-section">
                 <h1>E learning </h1>
-                <a href='https://www.linkedin.com/in/salman-farooqi-82554125a/'
+                <a href='https://github.com/salmanfarooqi/E-learning/'
                  target='_blank' ><AiFillGithub  className='icon'/> </a>
 
                 </div>
